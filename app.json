@@ -2,31 +2,30 @@
   "expo": {
     "name": "InfoPesantren",
     "slug": "InfoPesantren",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo-splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3D91D8"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
+    "assetBundlePatterns": ["**/*"],
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "ios": {
+      "bundleIdentifier": "com.riausoftwarehouse.infopesantren",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.riausoftwarehouse.infopesantren",
+      "versionCode": 4
+    },
+    "scheme": "infopesantren",
+    "description": ""
   }
 }
